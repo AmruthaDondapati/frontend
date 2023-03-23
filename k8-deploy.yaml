@@ -41,7 +41,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: ingress-myservicea
+  name: frontend-ingress
 spec:
   rules:
   - host: frontend.robos-shop.online
